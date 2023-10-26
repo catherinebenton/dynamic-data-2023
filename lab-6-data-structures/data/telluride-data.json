@@ -47,5 +47,51 @@
             ],
             "image":"/img/homepage/ridgelinehotel.jpg"
         }
+    ],
+    "packages":[
+        {
+            "title":"Garden of The Gods",
+            "image":"/img/homepage/gardenofthegods.jpg",
+            "text": "Spend a day in the Garden of the Gods exploring geologic formations, wildlife, and a unique part of nature on your very own Segway with a guide.",
+            "price": "",
+            "duration": "1 Day"
+        },
+        {
+            "title":"Weekend at Winter Park Resort",
+            "image":"/img/homepage/winterpark.jpg",
+            "text": "Winter Park Resort is an alpine ski resort in the western United States, in the Rocky Mountains of Colorado at Winter Park.",
+            "price": "500",
+            "duration": "3 Day"
+        },
+        {
+            "title":"Horseback Riding in the Rockies",
+            "image":"/img/homepage/rockymountains.jpg",
+            "text": "YMCA of the Rockies horseriding: This 1-hour trail ride heads west along mildly steep terrain, up Glacier Basin. This ride does some climbing, while looking down on Glacier Creek.",
+            "price": "30.00 per person",
+            "duration": "1 Hour"
+        },
+        {
+            "title":"Daytrip to Red Rocks",
+            "image":"/img/homepage/red rocks.jpg",
+            "text": "Part of Denver's Theatres & Arenas Division, Red Rocks Amphitheatre is a naturally formed, world-famous outdoor venue just fifteen miles west of Denver. Red Rocks is recognized for its star-studded concert roster, natural acoustics and ambience, as well as its awe-inspiring hiking and biking trails.",
+            "price": "Free",
+            "duration": "1 Day"
+        },
+        {
+            "title":"Black Canyon of the Gunnison National Park",
+            "image":"/img/homepage/blackcanyon.jpg",
+            "text": "As Colorado's own Grand Canyon, the Black Canyon of the Gunnison near Montrose, Gunnison and Crawford leaves visitors speechless with its beauty and dramatic landscape.",
+            "price": "1500",
+            "duration": "1 Day"
+        },
+        {
+            "title":"Downtown Denver",
+            "image":"/img/homepage/downtowndenver.jpg",
+            "text": "Denver is an outdoor city with a vibrant, walkable downtown offering urban adventures for all ages. Within a one-mile radius, you can kayak on the Platte River; explore some of the city's best museums; shop at art galleries and boutiques.",
+            "price": "",
+            "duration": "1 Day"
+        }
     ]
+
+    
 }

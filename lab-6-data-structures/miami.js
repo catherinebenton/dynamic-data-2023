@@ -43,7 +43,7 @@ app.get('/breckenridge', (req,res)=>{
 
 app.get('/vail', (req,res)=>{
     var data = require('./data/vail-data.json')
-    res.render('page', {data})
+    res.render('page', {data, gallery})
 })
 app.get('/about', (req,res)=>{
     res.render('about', {
