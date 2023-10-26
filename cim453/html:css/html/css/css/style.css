@@ -1,0 +1,12 @@
+body { 
+    background-color:aqua;
+}
+
+p{
+    color: brown;
+    font-size: 1.25rem;
+}
+
+.mySpecialClass{
+    text-decoration: underline;
+}

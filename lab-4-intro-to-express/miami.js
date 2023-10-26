@@ -6,7 +6,7 @@ const expressHandlebars = require('express-handlebars')
 const app = express()
 
 //configure our express app to use handlebars
-app.engine('handlebars',expressHandlebars({
+app.engine('handlebars',expressHandlebars.engine({
     defaultLayout: 'main',
 }))
 

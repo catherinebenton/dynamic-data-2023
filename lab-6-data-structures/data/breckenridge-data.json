@@ -1,0 +1,51 @@
+{
+    "title":"Breckenridge",
+    "description":"From our historic Main Street to our legendary skiing, what unites us in Breckenridge is our shared passion for embracing life’s best moments. Here, we pack all four seasons with the best of the outdoors, indoors and everything in between. With a vibrant après scene, culinary adventures, a buzzing nightlife and experiences that tap into our more cultural side, Breckenridge has something for everyone.", 
+    "slideshow":[
+        "/img/slides/breckenridge-1.jpg",
+        "/img/slides/breckenridge-2.jpg",
+        "/img/slides/breckenridge-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Skiing",
+            "intro":"Colorado is home to abundant snowfall, the world’s best skiing and snowboarding, and views that will take your breath away. Whether you’re looking for thrilling steeps, plenty of powder, gorgeous groomers, or approachable beginner slopes, Colorado has one for everyone.",
+            "lists":[
+                "Aspen", 
+                "Breckenridge",
+                "Vail"
+            ],
+            "image":"/img/homepage/skiing.jpg"
+        },
+        {
+            "title":"Rocky Mountain National Park",
+            "intro":"Rocky Mountain National Park's 415 square miles (265,807 acres) encompasses a spectacular range of mountain environments. Along the way explore over 300 miles of hiking trails and incredible wildlife viewing.",
+            "lists":[
+                "Scenic Drives", 
+                "Family Activities",
+                "Hiking"
+            ],
+            "image":"/img/homepage/nationalpark.jpg"
+        },
+        {
+            "title":"Winter Trip Ideas",
+            "intro":"This winter, find all the things you love about Colorado in one magical place: Glenwood Springs.Fill your days with snowsports, from skiing and snowboarding at Sunlight Mountain Resort to fat biking and snowshoeing in a Rocky Mountain wonderland blanketed in snow. Then warm up and relax in natural mineral-water hot springs before hitting the après scene at local restaurants.Don't hibernate for winter: Make the most of this gorgeous season by exploring the many things to do in Glenwood Springs.",
+            "lists":[
+                "Hot Springs", 
+                "Skiing",
+                "Explore"
+            ],
+            "image":"/img/homepage/glenwoodsprings.jpg"
+        },
+        {
+            "title":"Hotel and Lodging",
+            "intro":"Just three miles from Rocky Mountain National Park, The Ridgeline Hotel Estes Park, Ascend Hotel Collection delivers an elevated vacation experience — in more ways than one. Neighboring Lake Estes, this family-friendly hotel puts you right in the middle of the action in downtown Estes Park.",
+            "lists":[
+                "Indoor pool", 
+                "Fire pits",
+                "Fitness Center"
+            ],
+            "image":"/img/homepage/ridgelinehotel.jpg"
+        }
+    ]
+}

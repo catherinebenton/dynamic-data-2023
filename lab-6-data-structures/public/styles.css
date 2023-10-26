@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap');
+
+.oswald {font-family: 'Oswald', sans-serif; font-weight: 700;}
+
+.roboto {font-family: 'Roboto', sans-serif; font-weight: 400;}
+.roboto-bold {font-family: 'Roboto', sans-serif; font-weight: 600;}
+
+/*body{
+    background-color: #CCCCCC;
+}*/
+.white-bg{
+    background-color: #FFFFFF;
+}
+
+
+
+.primary-color{
+    color:#4C2500;
+}
+
+.primary-color-light, nav .secondary-color-light:hover {
+    color:#AA7039;
+}
+
+.primary-color-bg{
+    background-color:#4C2500;
+}
+
+.primary-color-light-bg{
+    background-color:#AA7039;
+}
+.secondary-color{
+    color: #0B424C;
+}
+.secondary-color-light{
+    color: #7DA1A8
+}
+.secondary-color-bg{
+    background-color: #0B424C;
+}
+.secondary-color-light-bg{
+    background-color: #7DA1A8;
+}
+
+.accordian-button:not(.colasped){
+    color:#0B424C;
+    background-color:aqua;
+}
+/*remove owl-nav previous and next butotons*/
+.owl-nav{
+    display: none;
+}
+
+.section-divider{
+    padding: 1rem;
+}
+
+.gallery-img img {
+    object-fit:cover;
+    height: 20rem;
+    aspect-ratio:1 / 1;
+}
+
+footer{
+    padding: 3rem;
+}

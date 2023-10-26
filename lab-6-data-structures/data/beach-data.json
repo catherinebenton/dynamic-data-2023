@@ -1,0 +1,31 @@
+{
+    "title":"Boulder",
+    "slideshow":[
+        "/img/slides/miamibeach.jpg",
+        "/img/slides/miamipier.jpg",
+        "/img/slides/miamiskyline.jpg"
+    ],
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos temporibus cupiditate in quod accusantium voluptate officia quis? Consequuntur deserunt natus dignissimos, ex expedita, itaque, asperiores obcaecati qui exercitationem quas quae!",
+            "lists":[
+                "Service 1", 
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/transportation.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Miami Tours",
+            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos temporibus cupiditate in quod accusantium voluptate officia quis? Consequuntur deserunt natus dignissimos, ex expedita, itaque, asperiores obcaecati qui exercitationem quas quae!",
+            "lists":[
+                "Service 1", 
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/tour.jpg"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "title":"Boulder",
+    "description":"Boulder is a perfect balance of urban and outdoors. Known for its stellar food scene, breweries, an always-exciting downtown and more outdoor activities than you can count, the city is just 30 minutes northwest of Denver, where the Rocky Mountains meet the plains.",
+    "slideshow":[
+        "/img/slides/boulder-1.jpg",
+        "/img/slides/boulder-2.jpg",
+        "/img/slides/boulder-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Skiing",
+            "intro":"Colorado is home to abundant snowfall, the world’s best skiing and snowboarding, and views that will take your breath away. Whether you’re looking for thrilling steeps, plenty of powder, gorgeous groomers, or approachable beginner slopes, Colorado has one for everyone.",
+            "lists":[
+                "Aspen", 
+                "Breckenridge",
+                "Vail"
+            ],
+            "image":"/img/homepage/skiing.jpg"
+        },
+        {
+            "title":"Rocky Mountain National Park ",
+            "intro":"Rocky Mountain National Park's 415 square miles (265,807 acres) encompasses a spectacular range of mountain environments. Along the way explore over 300 miles of hiking trails and incredible wildlife viewing.",
+            "lists":[
+                "Scenic Drives", 
+                "Family Activities",
+                "Hiking"
+            ],
+            "image":"/img/homepage/nationalparks.jpg"
+        },
+        {
+            "title":"Winter Trip Ideas",
+            "intro":"This winter, find all the things you love about Colorado in one magical place: Glenwood Springs.Fill your days with snowsports, from skiing and snowboarding at Sunlight Mountain Resort to fat biking and snowshoeing in a Rocky Mountain wonderland blanketed in snow. Then warm up and relax in natural mineral-water hot springs before hitting the après scene at local restaurants.Don't hibernate for winter: Make the most of this gorgeous season by exploring the many things to do in Glenwood Springs.",
+            "lists":[
+                "Hot Springs", 
+                "Skiing",
+                "Explore"
+            ],
+            "image":"/img/homepage/glenwoodsprings.jpg"
+        },
+        {
+            "title":"Hotel and Lodging",
+            "intro":"Just three miles from Rocky Mountain National Park, The Ridgeline Hotel Estes Park, Ascend Hotel Collection delivers an elevated vacation experience — in more ways than one. Neighboring Lake Estes, this family-friendly hotel puts you right in the middle of the action in downtown Estes Park.",
+            "lists":[
+                "Indoor pool", 
+                "Fire pits",
+                "Fitness Center"
+            ],
+            "image":"/img/homepage/ridgelinehotel.jpg"
+        }
+    ]
+}
