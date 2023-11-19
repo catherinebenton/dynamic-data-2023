@@ -61,7 +61,7 @@ app.get('/nightlife',(req,res)=>{
 })
 
 //Error handling -> app.use() basic express route
-app.use((request,response) => {
+app.use((req,res) => {
     res.status(404)
     res.render('404')
 })
