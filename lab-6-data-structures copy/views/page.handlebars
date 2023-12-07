@@ -1,0 +1,284 @@
+{{#if data.static}}
+{{#each data.static}}
+<div class="item">
+  <img class="img-fluid" src="{{this.image}}" alt="">
+</div>
+{{/each}}
+{{/if}}
+
+<div class="section-divider" id="about"></div>
+<h1 class="primary-color-light-bg roboto-bold">{{data.title}}</h1>
+<p>{{data.description}}</p>
+
+
+
+
+{{#if data.services}}
+<div class="section-divider" id="services"></div>
+
+<div class="accordion" id="servicesAccordion">
+{{#each data.services}}
+ <div class="accordion-item">
+    <h2 class="accordion-header roboto-bold">
+      <button class="accordion-button  secondary-color-bg primary-color-light collapsed" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#collapse_{{@index}}" aria-expanded="true" aria-controls="collapse_{{@index}}">
+        {{this.title}}
+      </button>
+    </h2>
+    <div id="collapse_{{@index}}" class="accordion-collapse collapse {{this.show}}" data-bs-parent="#servicesAccordian">
+      <div class="accordion-body">
+        <div class="row">
+            <div class="col">
+              <p>{{this.intro}}</p>
+              <ul>
+              {{#each this.lists}}
+       <li>{{this}}</li>
+       {{/each}}
+        </ul>
+    </div>
+    <div class="col">
+      <img class="img-fluid" src="" alt="">
+    </div>
+          </div>
+
+
+    
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+{{/if}}
+
+{{#if data.packages}}
+<div class="section-divider" id="packages"></div>
+{{!-- <h2>Best Sellers</h2> --}}
+<div class="owl-theme owl-carousel owl-packages">
+{{#each data.packages}}
+<div class="card">
+  {{#if this.image}}
+  <img src="{{this.image}}" class="card-img-top" alt="...">
+  {{/if}}
+
+</div>
+{{/each}}
+</div>
+{{/if}}
+
+ {{#if gallery.images}}
+<div class="section-divider" id="gallery"></div>
+<h2>Featured Properties</h2>
+<div class="row">
+  {{#each gallery.images}}
+  <div class="col-3">
+    {{#if this.image}}
+    <a href="{{this.url}}">
+     <img src="{{this.image}}" alt="{{this.title}}" class="img-thumbnail"></a>
+     <h4 style="text-align: center;">{{this.title}}</h4>
+     {{/if}}
+     </div>
+     {{/each}}
+     </div>
+     {{/if}}
+    {{!-- Button trigger modal  --}}
+{{!-- <a href "{{this.url}}" class="gallery-img" data-bs-toggle="modal" data-bs-target="#gallery{{@index}}">
+  <img src="{{this.image}}" alt="{{this.title}}" class="img-thumbnail">
+</a>  --}}
+
+{{!-- modal code--}}
+{{!-- <div class="modal fade" id="gallery{{@index}}" tabindex="-1" aria-labelledby="gallery{{@index}}Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="gallery{{@index}}Label">{{this.title}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="{{this.url}}" alt="{{this.title}}" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div> --}}
+
+
+  {{!-- </div>
+  {{/each}}
+</div>
+
+{{/if}} --}}
+
+{{#if data.featured}}
+<div class="section-divider" id="gallery"></div>
+<h2>Featured Properties</h2>
+<div class="row">
+  {{#each data.featured}}
+  <div class="col-3">
+
+  {{#if this.image}}
+    <a href="{{this.url}}"
+    >
+      <img src="{{this.image}}" alt="{{this.title}}" class="img-thumbnail"></a>
+  <h4 style="text-align: center;">{{this.title}}</h4>
+  {{/if}}
+</div>
+{{/each}}
+</div>
+{{/if}}
+
+
+{{!-- {{#if data.items}}
+<div class="section-divider"></div>
+<div class="row"></div>
+{{#each data.items}}
+<div class="col">
+  <h4>{{this.name}}</h4>
+  <button class="btn btn-primary" type="submit">Button</button>
+<div class="item">
+  <img class="img-fluid" src="{{this.image}}" alt="">
+  <h1 class="primary-color-light-bg roboto-bold">{{this.name}}</h1>
+<p>{{data.description}}</p>
+</div>
+{{/each}}
+</div>
+{{/if}} --}}
+
+
+{{#if data.items}}
+<div class="section-divider"></div>
+<div class="row">
+  
+  
+  {{#each data.items}}
+  <div class="col">
+    <img src="{{this.image}}">
+    <h4>{{this.name}}</h4>
+    <h4>{{this.description}}</h4>
+    <h4>${{this.price}}</h4>
+     {{#if this.button}}
+    <a href="/cart">
+  {{/if}} 
+    <button type="{{this.button}}">Add to Cart</button>
+    
+
+    
+    </div>
+  {{/each}}
+</div>
+
+{{/if}}
+
+
+
+{{#if data.tinyitem}}
+<div class="section-divider" id="gallery"></div>
+<div class="row">
+  {{#each data.tinyitem}}
+  <div class="col-2">
+
+  {{#if this.image}}
+      <img src="{{this.image}}" alt="{{this.title}}" class="img-thumbnail"></a>
+  <h4 style="text-align: center;">{{this.title}}</h4>
+  {{/if}}
+</div>
+{{/each}}
+</div>
+{{/if}}
+
+ {{#if data.additional}}
+<div class="section-divider" id="gallery"></div>
+<div class="row">
+  {{#each data.additional}}
+  <div class="col-3">
+
+  {{#if this.image}}
+      <img src="{{this.image}}" alt="{{this.title}}" class="img-thumbnail"></a>
+  <h4 style="text-align: center;">{{this.title}}</h4>
+  {{/if}}
+</div>
+{{/each}}
+</div>
+{{/if}}
+
+{{!-- Cart section --}}
+{{#if data.cart}}
+<div class="section-divider"></div>
+<div class="row">
+  
+{{#each data.cart}}
+<div class="col">
+  {{!-- <img src="{{this.image}}"> --}}
+  {{#if this.image}}
+      <img src="{{this.image}}" alt="{{this.title}}" class="img-thumbnail"></a>
+  <h4 style="text-align: center;">{{this.title}}</h4>
+  {{#each cartProducts}}
+<li>{{this.product}}</li>
+{{/each}}
+  {{/if}}
+    <h4>{{this.name}}</h4>
+    <h4>{{this.description}}</h4>
+    <h4>{{this.price}}</h4>
+    
+</div>
+{{/each}}
+{{!-- Form section, still in data.cart --}}
+<form class="form-horizontal" action="/newsletter-signup/process" role="form" method="POST"><input type="hidden" name="_csrf" value=""{{csrf}}>
+<div class="form-group">
+    <label for="fieldFirstName" class="col-sm-2 control-label">First Name</label>
+    <div class="col-sm-4">
+        <input type="text" name="firstname" class="form-control" id="fieldFirstName" required>
+    </div>
+</div>
+<div class="form-group">
+    <label for="fieldLastName" class="col-sm-2 control-label">Last Name</label>
+    <div class="col-sm-4">
+        <input type="text" name="lastname" class="form-control" id="fieldLastName" required>
+    </div>
+</div>
+<div class="form-group">
+    <label for="fieldAddress" class="col-sm-2 control-label">Address</label>
+    <div class="col-sm-4">
+        <input type="text" name="address" class="form-control" id="fieldAddress" required>
+    </div>
+</div>
+<div class="form-group">
+    <label for="fieldCity" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-4">
+        <input type="text" name="city" class="form-control" id="fieldEmail" required>
+    </div>
+</div>
+<div class="form-group">
+    <label for="fieldState" class="col-sm-2 control-label">Phone</label>
+    <div class="col-sm-4">
+        <input type="text" name="state" class="form-control" id="fieldPhone" required>
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset 2 col-sm-4">
+        <button class="btn btn-primary" type="submit">Checkout</button>
+    </div>
+</div>
+</form>
+{{!-- added --}}
+</div>
+{{/if}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+<footer class="primary-color-bg secondary-color-light">
+  Copyright 2023 - Catherine Benton
+</footer>

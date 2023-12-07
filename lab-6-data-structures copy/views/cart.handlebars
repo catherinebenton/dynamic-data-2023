@@ -1,0 +1,18 @@
+{{#each data.items}}
+  <div class="col">
+    <img src="{{this.image}}">
+    <h4>{{this.name}}</h4>
+    <h4>{{this.description}}</h4>
+    <h4>${{this.price}}</h4>
+     {{#if this.button}}
+    <a href="/cart">
+  {{/if}} 
+    <button type="{{this.button}}">Add to Cart</button>
+    
+
+    
+    </div>
+  {{/each}}
+</div>
+
+{{/if}}

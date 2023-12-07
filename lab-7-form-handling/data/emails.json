@@ -1,12 +1,1 @@
-{"users": [
-        {
-            "firstname": "Catherine",
-            "lastname": "Benton",
-            "address": "11984 East Lake Circle",
-            "city": "GREENWOOD VILLAGE",
-            "state": "CO",
-            "zip": "80111",
-            "email": "catherinebenton11@yahoo.com"
-        }
-    ]
-}
+{"users":[{"firstname":"Catherine","lastname":"Benton","address":"11984 East Lake Circle","city":"GREENWOOD VILLAGE","state":"CO","zip":"80111","email":"catherinebenton11@yahoo.com"},{"firstname":"hdhdhd","lastname":"hdhdhd","address":"hdhdh","city":"dhdhdh","state":"dhdhdh","zip":"9999","email":"cob@jdjdjd.com"},{"firstname":"Dustin","lastname":"Johnson","address":"niggadale","city":"greenwood ave","state":"TX","zip":"66669","email":"hfhjfjfj@gmail.com"},{"firstname":"hfshjs","lastname":"fhdsak","address":"fdahsiol","city":"fhskl,","state":"JFILA;","zip":"777777","email":"fdsajl@hotmail.com"}]}

@@ -1,0 +1,22 @@
+<table class="table table-success table-striped">
+<tr>
+    <th>First</th>
+    <th>Last</th>
+    <th>Email</th>
+    <th>Actions</th>
+</tr>
+{{#each users}}
+<tr>
+    <td>{{this.firstname}}</td>
+    <td>{{this.lastname}}</td>
+    <td>{{this.email}}</td>
+    <td>
+        <a href="/newsletter/details/{{this.email}}">View Details</a>
+        <form action="/newsletter/delete/" enctype="multipart/form-data" method="DELETE">
+        <input type="hidden" name="email" value="{{this.email}}">
+        <button type="submit" class="btn btn-primary">Delete</button></form>
+        </td>
+</tr>
+{{/each}}
+
+</table>

@@ -1,0 +1,39 @@
+{
+    "items":[
+        {
+            "image":"/img/final.homepage/featureproperty_1.jpg",
+            "name":"3 bedroom 4 bathroom","description":"Secluded property located in Austin Tx",
+            "price":"400,000",
+            "button":"/cart"
+            
+        }
+     ],
+     "tinyitem":[
+        {
+            "image":"/img/final.homepage/tinyitem_1.jpg"
+            
+        },
+        {
+            "image":"/img/final.homepage/tinyitem_2.jpg"
+        },
+        {
+            "image":"/img/final.homepage/tinyitem_3.jpg"
+        },
+        {
+            "image":"/img/final.homepage/tinyitem_4.jpg"
+        }
+     ],
+     "additional":[
+        {
+            "image":"/img/final.homepage/additionalitem_1.jpg"
+            
+        },
+        {
+            "image":"/img/final.homepage/additionalitem_2.jpg"
+        },
+        {
+            "image":"/img/final.homepage/additionalitem_3.jpg"
+        }
+     ]
+     
+}

@@ -1,0 +1,22 @@
+{
+  "name": "lab-4-intro-to-express",
+  "version": "1.0.0",
+  "description": "A travel website project",
+  "main": "miami.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "travel",
+    "project",
+    "travel",
+    "app"
+  ],
+  "author": "Catherine Benton",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
+  }
+}
