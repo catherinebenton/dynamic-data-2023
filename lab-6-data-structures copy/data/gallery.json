@@ -2,62 +2,74 @@
    "images": [
         {
         "url":"/items",
-        "title":"City life",
+        "title":"4 bed 3 bath, $400,000",
+        "description":"A classic two-story suburban home with a front porch, dormer windows, and a brick or siding exterior. Inside, there's a formal dining room, a spacious kitchen, and cozy bedrooms for the family.",
         "image":"/img/final.homepage/featureproperty_1.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"4 bed 3 bath, $450,000",
+        "description":"A classic two-story suburban home with a front porch, dormer windows, and a brick or siding exterior. Inside, there's a formal dining room, a spacious kitchen, and cozy bedrooms for the family.",
         "image":"/img/final.homepage/featureproperty_13.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"5 bed 4 bath, $1.5million",
+        "description":"A sleek, minimalist masterpiece of glass and steel. This house features clean lines, floor-to-ceiling windows, and an open-concept design. Smart home technology seamlessly integrates with the contemporary furnishings, offering a cutting-edge living experience.",
         "image":"/img/final.homepage/featureproperty_3.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Water Shack, $3.8million",
+        "description":"A charming beachfront cottage with weathered shingles, panoramic windows, and a wraparound porch. The interior boasts a nautical theme, with driftwood furniture and shades of blue and white, creating a tranquil seaside escape.",
         "image":"/img/final.homepage/featureproperty_4.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Cottage, $350,000",
+        "description":"Tucked away in a secluded forest, this charming cottage exudes coziness with a thatched roof, flower-filled gardens, and a cobblestone path. Inside, there's a wood-burning fireplace, floral prints, and comfortable furnishings, creating a storybook-like atmosphere.",
         "image":"/img/final.homepage/featureproperty_15.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Modern Home, $1million",
+        "description":"A suburban gem with multiple levels, large windows, and a mix of materials like stone and wood. The interior is open and airy, with sleek furnishings and a focus on natural light.",
         "image":"/img/final.homepage/featureproperty_6.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Mountain Home, $4.5million",
+        "description":"A log cabin nestled in the mountains, surrounded by pine trees and a gurgling stream. The interior features a stone fireplace, cozy furnishings, and wildlife-themed decor, providing a rustic and inviting atmosphere.",
         "image":"/img/final.homepage/featureproperty_7.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Colorful, $800,000",
+        "description":"A converted industrial space with exposed brick walls, high ceilings, and large, industrial-style windows. This loft features an open floor plan, modern art, and a mix of contemporary and vintage furniture, embodying a trendy urban lifestyle.",
         "image":"/img/final.homepage/featureproperty_8.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Colorful Part 2, $750,000",
+        "description":"This suburban manor draws inspiration from various architectural styles, resulting in a unique and eclectic appearance. Inside, find a mix of antique and contemporary furnishings, creating a sophisticated and stylish ambiance.",
         "image":"/img/final.homepage/featureproperty_9.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Suburban home, $500,000",
+        "description":"A classic colonial-style house with white clapboard siding, black shutters, and a symmetrical facade. Inside, there's a formal dining room, a traditional fireplace, and a combination of antique and timeless furnishings.",
         "image":"/img/final.homepage/featureproperty_10.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"House, $450,000",
+        "description":"This suburban manor draws inspiration from various architectural styles, resulting in a unique and eclectic appearance. Inside, find a mix of antique and contemporary furnishings, creating a sophisticated and stylish ambiance.",
         "image":"/img/final.homepage/featureproperty_14.jpg"
         },
         {
         "url":"/items",
-        "title":"City life",
+        "title":"Another House, $450,000",
+        "description":"A classic colonial-style house with white clapboard siding, black shutters, and a symmetrical facade. Inside, there's a formal dining room, a traditional fireplace, and a combination of antique and timeless furnishings.",
         "image":"/img/final.homepage/featureproperty_12.jpg"
         }   
     ]

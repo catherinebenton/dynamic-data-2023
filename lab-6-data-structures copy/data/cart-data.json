@@ -1,9 +1,10 @@
 {
     "cart":[
         {
-            
+            "image":"/img/final.homepage/featureproperty_1.jpg",
+            "name":"4 bed 3 bath","description":"A classic two-story suburban home with a front porch, dormer windows, and a brick or siding exterior. Inside, there's a formal dining room, a spacious kitchen, and cozy bedrooms for the family.",
+            "price":"400,000"
         }
-       
        
     ]
 }

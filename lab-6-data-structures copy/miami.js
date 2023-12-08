@@ -33,11 +33,11 @@ app.get('/', (req,res)=>{
     res.render('page', {data})
     
 })
-app.get('/thankyou', (req,res)=>{
-    var data = require('./data/thankyou-data.json')
-    res.render('page', {data})
+// app.get('/thankyou', (req,res)=>{
+//     var data = require('./data/thankyou-data.json')
+//     res.render('page', {data})
     
-})
+// })
 app.get('/aboutme', (req,res)=>{
     var data = require('./data/aboutme-data.json')
     res.render('page', {data})
